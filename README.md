@@ -5,6 +5,7 @@ This repository is created to keep track of Google IT Automation With Python pro
 
 ![Capture](https://user-images.githubusercontent.com/63796877/87873910-019c4880-c9e3-11ea-98f3-828498020bab.PNG)
 
+# DON'T JUST COPY PASTE THE ANSWERS JUST TRY TO SOLVE ON YOUR OWN FIRST AND THEN YOU TAKE A GLIMPSE AT THE ANSWERS.
 # NOTE:-
 These were the questions that I had encountered During the Course. If you encounter something different and want the answer to it.
 # Please feel free to contact me on cryptonic020801@gmail.com anytime 
