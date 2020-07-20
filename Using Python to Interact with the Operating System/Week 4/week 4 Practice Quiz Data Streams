@@ -1,0 +1,19 @@
+Practice Quiz: Data Streams
+
+
+1.Which command will print out the exit value of a script that just ran successfully?
+ANS:- 
+echo $?
+
+2.Which command will create a new environment variable?
+ANS:-
+export
+
+3.Which I/O stream are we using when we use the input function to accept user input in a Python script?
+ANS:- 
+The program ended successfully.
+
+4.Which statements are true about  input and raw_input in Python 2? (select all that apply)
+ANS:-
+input performs basic math operations.
+raw_input gets a string from the user.

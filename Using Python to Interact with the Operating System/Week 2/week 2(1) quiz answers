@@ -1,0 +1,63 @@
+Practice Quiz: Managing Files & Directories
+
+1.The new_directory function creates a new directory inside the current working directory, then creates a new empty file inside the new directory, and returns the list of files in that directory. Fill in the gaps to create a file "script.py" in the directory "PythonPrograms".
+
+ANS:- 
+
+import os
+
+def new_directory(directory, filename):
+  # Before creating a new directory, check to see if it already exists
+  if not os.path.exists(directory):
+    os.mkdir(directory)
+    name=os.path.join(directory, filename)
+    file=open(name,'w')
+    file.close()
+  return os.listdir(directory)
+
+  # Create the new file inside of the new directory
+
+  # Return the list of files in the new directory
+
+print(new_directory("PythonPrograms", "script.py"))
+
+
+2.Which of the following methods from the os module will create a new directory?
+ANS:- mkdir()
+
+3.The file_date function creates a new file in the current working directory, checks the date that the file was modified, and returns just the date portion of the timestamp in the format of yyyy-mm-dd. Fill in the gaps to create a file called "newfile.txt" and check the date that it was modified.
+
+ANS':-
+
+import os
+import datetime
+
+def file_date(filename):
+  # Create the file in the current directory
+  with open (filename,'w') as file:
+    pass
+  timestamp = os.path.getmtime(filename)
+  c=datetime.datetime.fromtimestamp(timestamp)
+  # Convert the timestamp into a readable format, then into a string
+ 
+  # Return just the date portion 
+  # Hint: how many characters are in “yyyy-mm-dd”? 
+  return ("{}".format(c.strftime("%Y-%m-%d")))
+
+print(file_date("newfile.txt")) 
+# Should be today's date in the format of yyyy-mm-dd
+
+4.The parent_directory function returns the name of the directory that's located just above the current working directory. Remember that '..' is a relative path alias that means "go up to the parent directory". Fill in the gaps to complete this function.
+
+ANS:- 
+
+import os
+def parent_directory():
+
+  # Create a relative path to the parent 
+  # of the current working directory 
+  relative_parent = os.path.join(os.getcwd(), os.pardir)
+  # Return the absolute path of the parent directory
+  return os.path.abspath(relative_parent)
+
+print(parent_directory())
