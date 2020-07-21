@@ -1,0 +1,17 @@
+1.How do we reference issues in our commits with automatic links?
+ANS:-
+By using one of the keywords followed by a hashtag and the issue number.
+
+2.Which of the following statements are good advice for project maintainers? (Check all that apply)
+ANS:-
+Reply promptly to pull-requests
+Understand any changes you accept
+Use an issue tracker
+
+3.Which statement best represents what a Continuous Integration system will do?
+ANS:-
+Run tests automatically
+
+4.Which statement best represents what a Continuous Delivery (CD) system will do?
+ANS:--
+Update with incremental rollouts

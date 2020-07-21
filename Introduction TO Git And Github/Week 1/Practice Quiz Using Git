@@ -1,0 +1,16 @@
+1. Before changes in new files can be added to the Git directory, what command will tell Git to track our file in the list of changes to be committed?
+ANS:-
+git add
+
+2.What command would we use to make Git track our file?
+ANS:-
+git add
+
+3.Which command would we use to look at our config?
+ANS:-
+git config -l
+
+4.Which command would we use to view pending changes?
+ANS:-
+git status
+

@@ -1,0 +1,15 @@
+1.When we merge two branches, one of two algorithms is used. If the branches have diverged, which algorithm is used?
+ANS:-
+three-way merge
+
+2.What command would we use to throw away a merge, and start over?
+ANS:-
+git merge --abort
+
+3.How do we display a summarized view of the commit history for a repo, showing one line per commit?
+ANS:-
+git log --graph --oneline
+
+4.The following script contains the result of a merge conflict. Edit the code to fix the conflict, so that both versions are included.
+ANS:-
+DO THIS ON YOUR OWN OR YOU'LL NOT UNDERSTAND THE CONCEPT JUST REWATCH THE VIDEOS
