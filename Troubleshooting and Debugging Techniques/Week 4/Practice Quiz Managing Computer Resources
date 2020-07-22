@@ -1,0 +1,18 @@
+1.Question 1
+Your application is having difficulty sending and receiving large packets of data, which are also delaying other processes when connected to remote computers. Which of the following will be most effective on improving network traffic for the application?
+ANS:-
+Use traffic shaping
+
+2. What is the term referring to the amount of time it takes for a request to reach its destination, usually measured in milliseconds (ms)?
+ANS:-
+Latency
+
+3.If your computer is slowing down, what Linux program might we use to determine if we have a memory leak and what process might be causing it?
+ANS:-
+top
+
+4.Some programs open a temporary file, and immediately _____ the file before the process finishes, then the file continues to grow, which can cause slowdown.
+ANS:-
+delete
+
+

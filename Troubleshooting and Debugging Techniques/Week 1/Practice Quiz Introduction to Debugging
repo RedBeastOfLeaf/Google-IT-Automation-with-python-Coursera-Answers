@@ -1,0 +1,17 @@
+1. Which tool can you use when debugging to look at library calls made by the software?
+ANS:- 
+ltrace
+
+2.What is the first step of problem solving?
+ANS:-
+Gathering information
+
+3.What software tools are used to analyze network traffic to isolate problems? (Check all that apply)
+ANS:-
+tcpdump
+wireshark
+
+4.The strace (in Linux) tool allows us to see all of the _____ our program has made.
+ANS:-
+System calls
+
