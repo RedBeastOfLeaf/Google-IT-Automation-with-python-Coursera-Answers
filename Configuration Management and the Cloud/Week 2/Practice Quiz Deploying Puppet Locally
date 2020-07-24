@@ -1,0 +1,20 @@
+1.Puppet evaluates all functions, conditionals, and variables for each individual system, and generates a list of rules for that specific system. What are these individual lists of rules called?
+ANS:-
+Catalogs
+
+2.After we install new modules that were made and shared by others, which folder in the module's directory will contain the new functions and facts?
+ANS:-
+lib
+
+3.What file extension do manifest files use?
+ANS:-
+.pp
+
+4.What is contained in the metadata.json file of a Puppet module?
+ANS:-
+Additional data about the module
+
+5.What does Puppet syntax dictate we do when referring to another resource attribute?
+ANS:-
+Capitalize the attribute
+

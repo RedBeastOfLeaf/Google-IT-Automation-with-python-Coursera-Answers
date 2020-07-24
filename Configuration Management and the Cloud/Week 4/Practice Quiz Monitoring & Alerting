@@ -1,0 +1,16 @@
+1.What is a Service Level Agreement?
+ANS:-
+A strict commitment between a provider and a client.
+
+2.What is the most important aspect of an alert?
+ANS:-
+It must be actionable.
+
+3.To set up a new alert, we have to configure the _____ that triggers the alert
+ANS:-
+Condition
+
+4.When we collect metrics from inside a system, this is known as ______ monitoring
+ANS:-
+White-box
+

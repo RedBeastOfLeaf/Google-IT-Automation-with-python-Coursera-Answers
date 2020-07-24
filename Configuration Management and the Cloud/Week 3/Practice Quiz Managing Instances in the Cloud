@@ -1,0 +1,17 @@
+1.What is templating?
+ANS:-
+The process of capturing the entire system configuration to enable us to reproduce virtual machines
+
+2.What option is used to determine which OS will run on the VM
+ANS:-
+Boot disk
+
+3.When setting up a new series of VMs using a reference image, what are some possible options for upgrading services running on our VM at scale?
+ANS:-
+Create a new reference image each update
+Use a configuration management system like Puppet
+
+4.When using gcloud to manage VMs, what two parameters tell gcloud that a) we want to manage our VM resources and b) that we want to deal with individual VMs? (Check two)
+ANS:-
+compute
+instances

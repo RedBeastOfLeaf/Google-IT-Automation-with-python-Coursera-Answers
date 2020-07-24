@@ -1,0 +1,14 @@
+1.What is a production environment in Puppet?
+ANS:-
+The parts of the infrastructure where a service is executed, and served to its users.
+
+2.How are canary environments used in testing?
+ANS:-
+As a test environment to detect problems before they reach the production environment
+
+3.What are efficient ways to check the syntax of the manifest? (Check all that apply)
+ANS:-
+Run full No Operations simulations
+Run rspec tests
+puppet parser validate
+
